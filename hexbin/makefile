@@ -1,4 +1,4 @@
-CFLAGS=	-O $(CF)
+CFLAGS=	-O -m32 $(CF)
 
 SRCS =	hexbin.c \
 	dl.c \

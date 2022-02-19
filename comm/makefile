@@ -1,4 +1,4 @@
-CFLAGS = -O $(CF)
+CFLAGS = -O -m32 $(CF)
 
 SRCS1 =	tomac.c xm_to.c ym_to.c zm_to.c tty.c globals.c
 SRCS2 =	frommac.c xm_from.c ym_from.c zm_from.c tty.c globals.c

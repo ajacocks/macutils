@@ -1,4 +1,4 @@
-CFLAGS=	-O $(CF)
+CFLAGS=	-O -m32 $(CF)
 
 all:	wrfile.o rdfile.o fileglob.o
 	touch all

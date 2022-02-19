@@ -1,4 +1,4 @@
-CFLAGS =	-O $(CF)
+CFLAGS =	-O -m32 $(CF)
 CRCC =	arc.c ccitt.c kermit.c binhex.c ccitt32.c zip.c
 CRCO =	arc.o ccitt.o kermit.o binhex.o ccitt32.o zip.o
 
@@ -16,7 +16,7 @@ $(CRCC):	makecrc
 	./makecrc
 
 makecrc:	makecrc.o
-	cc -O -o makecrc makecrc.o
+	cc -m32 -O -o makecrc makecrc.o
 
 arc.o:	arc.c
 ccitt.o:	ccitt.c

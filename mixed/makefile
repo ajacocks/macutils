@@ -1,4 +1,4 @@
-CFLAGS = -O $(CF)
+CFLAGS = -O -m32 $(CF)
 
 SRCS1 =	macsave.c \
 	globals.c \

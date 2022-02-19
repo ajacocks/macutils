@@ -1,4 +1,4 @@
-CFLAGS=	-O $(CF)
+CFLAGS=	-O -m32 $(CF)
 
 all:	util.o transname.o backtrans.o
 	touch all
